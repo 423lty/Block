@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3258415282435118732, guid: c29fb102176e18845ae6a369bc83ef33, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5155100508566799685, guid: c29fb102176e18845ae6a369bc83ef33, type: 3}
       propertyPath: m_Name
       value: Object
@@ -450,7 +454,7 @@ GameObject:
   - component: {fileID: 1275404833}
   m_Layer: 0
   m_Name: ScoreManager
-  m_TagString: Untagged
+  m_TagString: ScoreText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -467,7 +471,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae72a84cddd500f4283eacc01f3b5e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 887243784}
 --- !u!4 &1275404834
 Transform:
   m_ObjectHideFlags: 0
@@ -534,6 +537,10 @@ PrefabInstance:
     - target: {fileID: 2811717924160870514, guid: 0694a87737209f642a0e84ad2b6e5db9, type: 3}
       propertyPath: m_Name
       value: Score
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811717924160870514, guid: 0694a87737209f642a0e84ad2b6e5db9, type: 3}
+      propertyPath: m_TagString
+      value: ScoreText
       objectReference: {fileID: 0}
     - target: {fileID: 8292254022212280705, guid: 0694a87737209f642a0e84ad2b6e5db9, type: 3}
       propertyPath: score
@@ -638,7 +645,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5111062030488258160, guid: f7b06599acbda3d4bb13cd2144b6296d, type: 3}
       propertyPath: m_Name
-      value: scoreText
+      value: ScoreText
+      objectReference: {fileID: 0}
+    - target: {fileID: 5111062030488258160, guid: f7b06599acbda3d4bb13cd2144b6296d, type: 3}
+      propertyPath: m_TagString
+      value: ScoreText
       objectReference: {fileID: 0}
     - target: {fileID: 6412049046697023061, guid: f7b06599acbda3d4bb13cd2144b6296d, type: 3}
       propertyPath: m_Name
@@ -704,6 +715,10 @@ PrefabInstance:
     - target: {fileID: 5464806229818471903, guid: 4190150db69bf6b40a973b93d909c29e, type: 3}
       propertyPath: m_Name
       value: Blocks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5464806229818471903, guid: 4190150db69bf6b40a973b93d909c29e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
